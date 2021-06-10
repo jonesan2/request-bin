@@ -11,6 +11,7 @@ const Bin = ({ slug }) => {
 
   const history = useHistory()
   const requestURL = `${window.location.hostname}/${slug}`
+  // test comment
 
   useEffect(() => {
     const socket = socketIOClient(ENDPOINT);
