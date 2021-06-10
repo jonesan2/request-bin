@@ -5,7 +5,7 @@ on:
 
 env:
   ECR_REPO: gander-ecr
-  PROJECT: request-bin # request-bin
+  PROJECT: request-tub # request-bin
   SUBNET_NAME: gander-apps # Gander-Subnet
   SG_NAME: gander-apps-cluster # Gander-Security-3
   FS_NAME: gander-apps # GanderFS
